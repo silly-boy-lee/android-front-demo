@@ -16,5 +16,6 @@ public class MyReceiver extends BroadcastReceiver {
         String msg = intent.getStringExtra("msg");
         LogUtil.e(msg,true);
         Toast.makeText(context, msg, Toast.LENGTH_SHORT).show();
+        String demo;
     }
 }
