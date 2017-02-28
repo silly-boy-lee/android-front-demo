@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">竹林峰--测试</string>
+
+
+    <string name="main_layout_send_btn">网络请求工具类</string>
+    <string name="network_layout_AsyncGet_btn">同步Get请求</string>
+    <string name="network_layout_Async_btn">同步请求</string>
+
+    <string name="aes_en">AES加密</string>
+    <string name="aes_de">AES解密</string>
+    <string name="alarm_broad">定时发送一次性广播</string>
+
+
+</resources>
