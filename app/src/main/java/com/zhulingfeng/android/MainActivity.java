@@ -2,7 +2,6 @@ package com.zhulingfeng.android;
 
 import android.os.Bundle;
 import android.view.View;
-import android.view.animation.ScaleAnimation;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -18,7 +17,6 @@ public class MainActivity extends BaseActivity {
 
     public static final String TAG = "MainActivity";
 
-    ScaleAnimation aa = null;
 
     @BindView(R.id.start)
     public Button startBtn;
@@ -37,7 +35,6 @@ public class MainActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        String demo;
     }
 
 
