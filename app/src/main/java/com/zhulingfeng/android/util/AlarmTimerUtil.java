@@ -22,7 +22,7 @@ public class AlarmTimerUtil {
     /**
      * @InterfaceName: ComponentFlag
      * @description: 组件类别常量
-     * @author:  Mr.Lee
+     * @author:  Mr.Leedsfdsfs
      */
     interface ComponentFlag {
         String activity = "activity";
