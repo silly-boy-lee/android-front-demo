@@ -27,21 +27,22 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:25.1.0'
-    testCompile 'junit:junit:4.12'
-    compile 'com.squareup.okhttp3:okhttp:3.5.0'
-    compile 'com.squareup.okio:okio:1.6.0'
 
     /*butter knife 插件集成配置    开始 */
-    compile 'com.jakewharton:butterknife:8.4.0'
-    apt 'com.jakewharton:butterknife-compiler:8.4.0'
     /*butter knife 插件集成配置    结束 */
 
     compile files('libs/zxing.jar')
     compile files('libs/httpclient-4.5.3.jar')
 
     /* Litepal数据库操作插件   开始*/
-    compile 'org.litepal.android:core:1.5.0'
     /* Litepal数据库操作插件   结束*/
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile 'com.squareup.okhttp3:okhttp:3.5.0'
+    compile 'com.squareup.okio:okio:1.6.0'
+    compile 'com.jakewharton:butterknife:8.4.0'
+    compile 'org.litepal.android:core:1.5.0'
+    compile 'com.android.support:support-v4:25.2.0'
+    testCompile 'junit:junit:4.12'
+    apt 'com.jakewharton:butterknife-compiler:8.4.0'
 }
 
