@@ -11,12 +11,14 @@ import com.zhulingfeng.android.network.okhttp.cookie.PersistentCookieJar;
 import com.zhulingfeng.android.network.okhttp.cookie.cache.SetCookieCache;
 import com.zhulingfeng.android.network.okhttp.cookie.persistence.SharedPrefsCookiePersistor;
 
+import org.litepal.LitePalApplication;
+
 /**
  * Application
  * 1、初始化全局OkHttpUtil
  * @author zhousf
  */
-public class BaseApplication extends Application {
+public class BaseApplication extends LitePalApplication {
 
     public static BaseApplication baseApplication;
 
